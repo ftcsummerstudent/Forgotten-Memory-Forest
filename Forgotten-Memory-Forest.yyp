@@ -35,7 +35,9 @@
   },
   "name":"Forgotten-Memory-Forest",
   "resources":[
+    {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
