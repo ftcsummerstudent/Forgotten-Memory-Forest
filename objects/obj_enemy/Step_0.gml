@@ -65,8 +65,9 @@ var l35010E1F_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l35010
 		/// @DnDVersion : 1
 		/// @DnDHash : 57D64C80
 		/// @DnDParent : 5BA80C35
+		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "var" "move_x"
-		move_x = 0;
+		move_x = 1;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
