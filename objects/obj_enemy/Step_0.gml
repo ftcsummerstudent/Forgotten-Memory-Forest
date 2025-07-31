@@ -1,0 +1,70 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 752EB08F
+/// @DnDDisabled : 1
+/// @DnDArgument : "expr" "keyboard_check(vk_right) - keyboard_check(vk_left)"
+/// @DnDArgument : "var" "move_x"
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 01B039DD
+/// @DnDArgument : "expr" "move_x * walk_speed"
+/// @DnDArgument : "var" "move_x"
+move_x = move_x * walk_speed;
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 35010E1F
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "2"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "collision_tilemap"
+var l35010E1F_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l35010E1F_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 60F19135
+	/// @DnDDisabled : 1
+	/// @DnDParent : 35010E1F
+	/// @DnDArgument : "var" "move_y"
+
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 629A2D8F
+	/// @DnDParent : 35010E1F
+	var l629A2D8F_0;l629A2D8F_0 = keyboard_check_pressed(vk_space);if (l629A2D8F_0){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 544D97A6
+		/// @DnDParent : 629A2D8F
+		/// @DnDArgument : "expr" "-jump_speed"
+		/// @DnDArgument : "var" "move_y"
+		move_y = -jump_speed;}}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 57742268
+else{	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7136BB4B
+	/// @DnDParent : 57742268
+	/// @DnDArgument : "var" "move_y"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "10"
+	if(move_y < 10){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 13DC5C58
+		/// @DnDParent : 7136BB4B
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "move_y"
+		move_y += 1;}}
+
+/// @DnDAction : YoYo Games.Movement.move_and_collide
+/// @DnDVersion : 1
+/// @DnDHash : 46AE35F1
+/// @DnDArgument : "xvel" "move_x"
+/// @DnDArgument : "yvel" "move_y"
+/// @DnDArgument : "maxxmove" "walk_speed"
+/// @DnDArgument : "maxymove" "jump_speed"
+/// @DnDArgument : "object" "collision_tilemap"
+move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
