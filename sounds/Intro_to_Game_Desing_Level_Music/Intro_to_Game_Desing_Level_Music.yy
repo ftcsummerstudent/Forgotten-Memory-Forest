@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Intro_to_Game_Desing_Level_Music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":27.428572,
+  "name":"Intro_to_Game_Desing_Level_Music",
+  "parent":{
+    "name":"Forgotten-Memory-Forest",
+    "path":"Forgotten-Memory-Forest.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Intro_to_Game_Desing_Level_Music.wav",
+  "type":0,
+  "volume":1.0,
+}

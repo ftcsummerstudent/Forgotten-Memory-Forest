@@ -44,6 +44,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_shard","path":"objects/obj_shard/obj_shard.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Intro_to_Game_Desing_Level_Music","path":"sounds/Intro_to_Game_Desing_Level_Music/Intro_to_Game_Desing_Level_Music.yy",},},
     {"id":{"name":"Spr__hud_timer","path":"sprites/Spr__hud_timer/Spr__hud_timer.yy",},},
     {"id":{"name":"Spr_Background","path":"sprites/Spr_Background/Spr_Background.yy",},},
     {"id":{"name":"Spr_enemy","path":"sprites/Spr_enemy/Spr_enemy.yy",},},
