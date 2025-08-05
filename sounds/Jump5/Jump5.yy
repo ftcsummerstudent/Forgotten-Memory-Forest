@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Intro_to_Game_Desing_Level_Music",
+  "%Name":"Jump5",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":27.428572,
-  "name":"Intro_to_Game_Desing_Level_Music",
+  "duration":0.057573695,
+  "name":"Jump5",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Intro_to_Game_Desing_Level_Music.wav",
+  "soundFile":"Jump5.wav",
   "type":0,
   "volume":1.0,
 }

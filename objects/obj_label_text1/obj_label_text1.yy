@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hud_timer",
+  "%Name":"obj_label_text1",
   "eventList":[],
   "managed":true,
-  "name":"obj_hud_timer",
-  "overriddenProperties":[],
+  "name":"obj_label_text1",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_label_parent","path":"objects/obj_label_parent/obj_label_parent.yy",},"propertyId":{"name":"text_data","path":"objects/obj_label_parent/obj_label_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Forgotten-Memory-Forest \\n",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_label_parent",
+    "path":"objects/obj_label_parent/obj_label_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr__hud_timer",
-    "path":"sprites/Spr__hud_timer/Spr__hud_timer.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

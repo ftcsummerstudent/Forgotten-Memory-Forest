@@ -104,12 +104,11 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "collision_tilemap_deathzone"
-var l1C670B10_0 = instance_place(x + 0, y + 2, [collision_tilemap_deathzone]);if ((l1C670B10_0 > 0)){	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+var l1C670B10_0 = instance_place(x + 0, y + 2, [collision_tilemap_deathzone]);if ((l1C670B10_0 > 0)){	/// @DnDAction : YoYo Games.Game.Restart_Game
 	/// @DnDVersion : 1
-	/// @DnDHash : 1D42968A
-	/// @DnDApplyTo : all
+	/// @DnDHash : 653F321B
 	/// @DnDParent : 1C670B10
-	room_restart();}
+	game_restart();}
 
 /// @DnDAction : YoYo Games.Movement.move_and_collide
 /// @DnDVersion : 1
@@ -120,3 +119,16 @@ var l1C670B10_0 = instance_place(x + 0, y + 2, [collision_tilemap_deathzone]);i
 /// @DnDArgument : "maxymove" "jump_speed"
 /// @DnDArgument : "object" "collision_tilemap"
 move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
+
+/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
+/// @DnDVersion : 1.1
+/// @DnDHash : 1D3288EF
+/// @DnDArgument : "btn" "gp_face1"
+var l1D3288EF_0 = 0;var l1D3288EF_1 = gp_face1;if(gamepad_is_connected(l1D3288EF_0) && gamepad_button_check_pressed(l1D3288EF_0, l1D3288EF_1)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 5A5E78CA
+	/// @DnDParent : 1D3288EF
+	/// @DnDArgument : "soundid" "Jump5"
+	/// @DnDArgument : "gain" "0.5"
+	/// @DnDSaveInfo : "soundid" "Jump5"
+	audio_play_sound(Jump5, 0, 0, 0.5, undefined, 1.0);}
