@@ -4,7 +4,7 @@
 /// @DnDArgument : "obj" "obj_Player"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "obj" "obj_Player"
-var l03E348A9_0 = false;l03E348A9_0 = instance_exists(obj_Player);if(!l03E348A9_0){	/// @DnDAction : YoYo Games.Common.Exit_Event
+var l03E348A9_0 = false;l03E348A9_0 = instance_exists(Obj_Player);if(!l03E348A9_0){	/// @DnDAction : YoYo Games.Common.Exit_Event
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A2D66E2
 	/// @DnDParent : 03E348A9
@@ -29,4 +29,4 @@ draw_set_font(font_opensans);
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Shard: ""
 /// @DnDArgument : "var" "obj_Player.shard"
-draw_text(x + 0, y + 0, string("Shard: ") + string(obj_Player.shard));
+draw_text(x + 0, y + 0, string("Shard: ") + string(Obj_Player.shard));
