@@ -50,6 +50,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Intro_to_Game_Desing_Level_Music","path":"sounds/Intro_to_Game_Desing_Level_Music/Intro_to_Game_Desing_Level_Music.yy",},},
     {"id":{"name":"Jump5","path":"sounds/Jump5/Jump5.yy",},},
+    {"id":{"name":"Mutant","path":"sounds/Mutant/Mutant.yy",},},
     {"id":{"name":"Spr__hud_timer","path":"sprites/Spr__hud_timer/Spr__hud_timer.yy",},},
     {"id":{"name":"Spr_Background","path":"sprites/Spr_Background/Spr_Background.yy",},},
     {"id":{"name":"Spr_enemy","path":"sprites/Spr_enemy/Spr_enemy.yy",},},
