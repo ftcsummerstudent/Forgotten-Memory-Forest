@@ -21,5 +21,6 @@ audio_stop_all();
 /// @DnDVersion : 1.1
 /// @DnDHash : 6D589081
 /// @DnDArgument : "soundid" "Intro_to_Game_Desing_Level_Music"
+/// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "Intro_to_Game_Desing_Level_Music"
-audio_play_sound(Intro_to_Game_Desing_Level_Music, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(Intro_to_Game_Desing_Level_Music, 0, 1, 1.0, undefined, 1.0);

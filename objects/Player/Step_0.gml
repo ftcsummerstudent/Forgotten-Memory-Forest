@@ -113,3 +113,16 @@ var l4E7339B7_0 = instance_place(x + 0, y + 2, [collision_tilemap_deathzone]);i
 /// @DnDArgument : "maxymove" "jump_speed"
 /// @DnDArgument : "object" "collision_tilemap"
 move_and_collide(move_x, move_y, collision_tilemap,4,0,0,walk_speed,jump_speed);
+
+/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
+/// @DnDVersion : 1.1
+/// @DnDHash : 1B7308A3
+/// @DnDArgument : "btn" "gp_face1"
+var l1B7308A3_0 = 0;var l1B7308A3_1 = gp_face1;if(gamepad_is_connected(l1B7308A3_0) && gamepad_button_check_pressed(l1B7308A3_0, l1B7308A3_1)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 6469FEDC
+	/// @DnDParent : 1B7308A3
+	/// @DnDArgument : "soundid" "Jump5"
+	/// @DnDArgument : "gain" "0.5"
+	/// @DnDSaveInfo : "soundid" "Jump5"
+	audio_play_sound(Jump5, 0, 0, 0.5, undefined, 1.0);}

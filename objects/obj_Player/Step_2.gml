@@ -65,8 +65,9 @@ var l29CA985C_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l29CA9
 		/// @DnDHash : 4F84642B
 		/// @DnDParent : 4D3AA593
 		/// @DnDArgument : "soundid" "Mutant"
+		/// @DnDArgument : "gain" "0.5"
 		/// @DnDSaveInfo : "soundid" "Mutant"
-		audio_play_sound(Mutant, 0, 0, 1.0, undefined, 1.0);}
+		audio_play_sound(Mutant, 0, 0, 0.5, undefined, 1.0);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
